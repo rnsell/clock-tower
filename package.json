@@ -1,0 +1,22 @@
+{
+  "name": "clock-bell-counter-example",
+  "version": "1.0.0",
+  "description": "Clockbell tower",
+  "main": "./src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ./src ./test"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.13.0",
+    "jest": "^21.2.1"
+  },
+  "jest": {
+    "collectCoverage": true
+  }
+}
